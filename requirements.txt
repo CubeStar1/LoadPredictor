@@ -3,3 +3,6 @@ pandas~=2.2.0
 numpy~=1.26.3
 openpyxl~=3.1.2
 altair~=5.2.0
+beautifulsoup4
+scikit-learn
+tensorflow

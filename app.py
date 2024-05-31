@@ -43,36 +43,24 @@ def description():
         st.markdown('''
         ### Introduction
 
-        - This project delves into the application of intelligent computing within smart grids, focusing on load forecasting for the Delhi power grid. 
-        - Employing an LSTM (Long Short-Term Memory) model, the project aims to predict daily power load patterns, contributing to efficient energy management
+        - This project focuses on developing an intelligent load forecasting system for enhanced energy management within smart grids.
+        - Employing an LSTM (Long Short-Term Memory) model, the project aims to predict daily power load patterns, contributing to efficient energy management.
 
         #### Objectives
 
         1. **Implement Predictive Analytics:** Develop and implement an LSTM model to forecast daily power load patterns based on historical data from the Delhi State Load Dispatch Centre.
 
-        2. **Evaluate Smart Decision-Making Impact:** Evaluate the impact of intelligent load forecasting on decision-making processes related to energy consumption, 
-        contributing to enhanced grid operation and resilience.
+        2. **Enhance Energy Management:** Enable energy management within smart grids by providing real-time insights into power load patterns and energy consumption.
 
         3. **Design User-Friendly Interface:** Design a user-friendly dashboard providing real-time insights into past energy consumption and future load predictions, 
         fostering accessibility and practical application.
 
-        #### Significance
-
-        - The project's significance lies in its potential to optimize energy usage within smart grids, 
-        paving the way for more informed decision-making and contributing to the broader goal of creating efficient 
-        and resilient energy infrastructures.
-
-        - By applying intelligent computing techniques to load forecasting, 
-        this project aims to advance the understanding and practical implementation of data-driven strategies within smart grids, 
-        with the Delhi Power Forecast Dashboard serving as a tangible demonstration of these principles.
-
         #### Features
 
-        - Explore real-time power consumption insights from the Delhi State Load Dispatch Centre (SLDC).
-        - Access meticulously collected power load data, scraped at 5-minute intervals from the SLDC's official website.
-        - Track daily and monthly power consumption trends with interactive charts.
-        - Our Machine Learning LSTM (Long Short-Term Memory) model leverages historical power load data collected at 
-        5-minute intervals from the Delhi State Load Dispatch Centre (SLDC) to predict daily load patterns with precision.
+        - Analyze historical power load data from the Delhi State Load Dispatch Centre (SLDC) for the years 2023 and 2024.
+        - Visualize daily, monthly, and yearly power load curves to identify trends and patterns.
+        - Access data collected at 5-minute intervals to predict future load patterns and energy consumption.
+        - The Machine Learning LSTM model predicts daily power load patterns based on historical data collected from the SLDC at 5-minute intervals.
 
             ''')
         with st.expander('Delhi SLDC Operational Map'):
